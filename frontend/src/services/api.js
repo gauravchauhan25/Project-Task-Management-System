@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://project-task-management-system-7gha.vercel.app/api",
+  baseURL: "https://project-task-management-system-vjl6-5qo9huyra.vercel.app/api",
 });
 
 api.interceptors.request.use((config) => {
