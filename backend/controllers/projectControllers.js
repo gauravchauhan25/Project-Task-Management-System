@@ -1,4 +1,4 @@
-const Project = require("../models/projectmodels");
+const Project = require("../models/projectModels");
 const User = require("../models/userModels");
 const { completedTasksCount, pendingTasksCount } = require("./taskControllers");
 
