@@ -60,7 +60,7 @@ const SignInForm = () => {
     try {
       setIsLoading(true);
 
-      const response = await api.post("/api/auth/login", {
+      const response = await api.post("/auth/login", {
         email: formData.email,
         password: formData.password,
       });
