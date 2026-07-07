@@ -20,7 +20,7 @@ export default function Tasks() {
 
   async function fetchTasks() {
     try {
-      const response = await api.get("/api/tasks");
+      const response = await api.get("/tasks");
       setTasks(response.data);
     } catch (err) {
       console.log(err);
