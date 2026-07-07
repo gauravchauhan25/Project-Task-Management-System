@@ -38,7 +38,7 @@ export default function Projects() {
     e.preventDefault();
 
     try {
-      await api.post("/projects", projectData);
+      await api.post("/api/projects", projectData);
 
       setProjectData({
         userId: userProfile._id,
