@@ -1,12 +1,10 @@
 import { Routes, Route, Outlet, Navigate, useNavigate } from "react-router-dom";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import Tasks from "./pages/Tasks";
-import SignUpForm from "./_auth/_forms/SignUpForm";
+import SignUp from "./_auth/_forms/SignUp";
 import AuthLayout from "./_auth/AuthLayout";
-import SignInForm from "./_auth/_forms/SignInForm";
+import SignIn from "./_auth/_forms/SignIn";
 import { useAuthContext } from "./contexts/AuthContext";
 import { Profile } from "./pages/Profile";
 import Navbar from "./components/Navbar";
@@ -19,7 +17,7 @@ const ProtectedRoute = ({ element }) => {
 };
 
 const AppLayout = () => (
-  <div className="min-h-screen bg-gray-900 text-gray-200 transition-colors">
+  <div className="min-h-screen bg-gray-900 text-gray-200">
     <Navbar />
     <Outlet />
   </div>
@@ -34,7 +32,7 @@ export default function App() {
      <Routes>
       <Route
         element={
-          <div className="min-h-screenbg-gray-950 bg-gray-900 text-gray-200 transition-colors">
+          <div className="min-h-screen bg-gray-900 text-gray-200">
             <AuthLayout />
           </div>
         }
@@ -42,13 +40,13 @@ export default function App() {
         <Route
           path="/sign-in"
           element={
-            isAuthenticated ? <Navigate to="/" replace /> : <SignInForm />
+            isAuthenticated ? <Navigate to="/" replace /> : <SignIn />
           }
         />
         <Route
           path="/sign-up"
           element={
-            isAuthenticated ? <Navigate to="/" replace /> : <SignUpForm />
+            isAuthenticated ? <Navigate to="/" replace /> : <SignUp />
           }
         />
       </Route>
