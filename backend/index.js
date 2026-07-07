@@ -24,7 +24,7 @@ app.use("/api/auth", userRouter);
 app.use("/api/projects", projectRouter);
 app.use("/api/tasks", taskRouter);
 
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV !== "production") {
   app.listen(PORT, () => {
