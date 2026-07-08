@@ -2,28 +2,28 @@
 
 A simple full-stack web application that helps users efficiently manage their projects and tasks. Users can securely create an account, log in using JWT authentication, create and manage projects, and monitor their status about the projects and tasks through an interactive dashboard.
 
-## 🚀 Features
+##  Features
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 - User registration and login system
 - Secure authentication using JWT (JSON Web Token)
 - Protected routes for authenticated users
 - User-specific project and task management
 
-### 📁 Project Management
+###  Project Management
 - Create new projects
 - Fetch user-specific projects
 - View project details
 - Delete projects
 
-### ✅ Task Management
+### Task Management
 - Create tasks under projects
 - Fetch tasks
 - Delete tasks
 - Track task status
 - See pending and completed tasks
 
-### 📊 Dashboard
+###  Dashboard
 An interactive dashboard that provides an overview of productivity:
 
 - Total number of projects
@@ -31,7 +31,7 @@ An interactive dashboard that provides an overview of productivity:
 - Completed tasks
 - Pending tasks
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -59,11 +59,11 @@ An interactive dashboard that provides an overview of productivity:
 
 
 
-# 🚀 Future Improvements (Did not added because of the shortage of time)
+#  Future Improvements (Did not added because of the shortage of time)
 
 The following features are planned to enhance the functionality, scalability, and user experience of the Project & Task Management System.
 
-## ✏️ Advanced Task Management
+##  Advanced Task Management
 
 - Edit and update existing tasks
 - Edit task priority levels (Low, Medium, High, Urgent)
@@ -90,7 +90,7 @@ The following features are planned to enhance the functionality, scalability, an
 
 ---
 
-## 🔔 Real-Time Notifications
+##  Real-Time Notifications
 
 - Real-time task updates
 - Project invitation notifications
@@ -100,7 +100,7 @@ The following features are planned to enhance the functionality, scalability, an
 
 ---
 
-## 📊 Advanced Analytics Dashboard
+##  Advanced Analytics Dashboard
 
 Improve the existing dashboard with detailed insights:
 
@@ -110,9 +110,9 @@ Improve the existing dashboard with detailed insights:
 - Weekly/monthly performance reports
 - Visual data representation using charts and graphs
 
----
+--
 
-## 🔍 Search & Filtering System
+##  Search & Filtering System
 
 Improve task and project management with:
 
@@ -126,7 +126,7 @@ Improve task and project management with:
 
 ---
 
-## 💬 Comments & Activity Tracking
+##  Comments & Activity Tracking
 
 - Add comments on tasks
 - Mention team members
