@@ -71,7 +71,7 @@ The following features are planned to enhance the functionality, scalability, an
 - Add task categories and tags
 ---
 
-## 👥 Team Collaboration
+##  Team Collaboration
 
 - Allow multiple users to collaborate on projects
 - Invite team members to projects
@@ -81,7 +81,7 @@ The following features are planned to enhance the functionality, scalability, an
 
 ---
 
-## 📅 Calendar & Deadline Management
+##  Calendar & Deadline Management
 
 - Add calendar-based task visualization
 - Display upcoming deadlines
